@@ -21,6 +21,12 @@ public class Main {
         videoGames.add(game4);
         videoGames.add(game5);
 
+        for (VideoGame videoGame: videoGames){
+            System.out.println(videoGame.toString());
+        }
+
+        System.out.println("----BEFORE CHANGE NAMES------");
+
         game1.setTitle("Final Fantasy IV");
         game1.setNum_players(1);
 
